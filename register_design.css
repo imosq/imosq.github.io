@@ -1,0 +1,72 @@
+
+* {
+  box-sizing : border-box;
+}
+body {
+  margin           : 0;
+  background-color : #e7e7e7;
+  font-family      : 'Roboto',
+                     sans-serif;
+}
+.card {
+  width            : 750px;
+  height           : 1580px;
+  margin           : 60px auto 0;
+  border           : 1px solid #ddd;
+  border-radius    : 6px;
+  background-color : #fff;
+  box-shadow       : 1px 2px 3px 0px rgba(0,0,0,0.10);
+}
+.form-header {
+  height        : 60px;
+  padding       : 20px 30px 0;
+  border-bottom : 1px solid #E1E8EE;
+}
+.form-body {
+  height  : 340px;
+  padding : 30px 30px 20px;
+}
+.title {
+  margin    : 0;
+  color     : #5e6977;
+  font-size : 18px;
+}
+
+.form-box {
+  color   : #86939e;
+  opacity : .7;
+  margin-bottom : 0px;
+  padding-left  : 20px;
+  border        : 2px solid #e1e8ee;
+  border-radius : 6px;
+  height        : 30px;
+  width         : 500px;
+}
+
+.text-design {
+  float         : right;
+  margin-bottom : 20px;
+  font-size     : 12px;
+  font-weight   : 300;
+  line-height   : 16px;
+}
+
+.btn {
+  cursor: pointer;
+  width         : 50%;
+  align-items: center;
+  border-color  : transparent;
+  border-radius : 6px;
+  font-size     : 16px;
+  margin-bottom : 10px;
+  background    : #7dc855;
+  height : 42px;
+}
+
+.btn a {
+  text-decoration : none;
+  cursor          : pointer;
+}
+.btn a {
+  color : #fff;
+}
