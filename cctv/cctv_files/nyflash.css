@@ -1,0 +1,15 @@
+.mainbox{
+    overflow:hidden;
+    position:relative;
+}
+.flashbox{
+   overflow:hidden;
+    position:relative;
+}
+.imagebox{
+    text-align:center;position:relative;z-index:3;
+}
+
+.bitdiv{display:inline-block;width:0px;height:0px;margin:0 6px 0px 0px;cursor:pointer;float:center;}
+.defimg{background-image:url(../images/02.png)}
+.curimg{background-image:url(../images/01.png)}

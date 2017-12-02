@@ -1,0 +1,201 @@
+.ddsubmenustyle, .ddsubmenustyle ul{
+
+	margin:0;
+
+	padding:0;
+
+	position:absolute;
+
+	left:0;
+
+	border-bottom:#cccccc 1px solid;
+	border-left:#cccccc 1px solid;
+	border-right:#cccccc 1px solid;
+	top:0;
+
+	/*--background:url(../images/nav_sub_bg.gif) 20px top no-repeat;**/
+	background: #e9e8e4;
+
+	padding-top:5px;
+
+	visibility:hidden;
+
+	z-index:100;
+
+	}
+ 
+.ddsubmenustyle li{
+
+	float:left;
+
+	clear:both;
+
+	}
+
+.ddsubmenustyle li ul{
+
+	padding:0;
+
+	background:none;
+
+	}
+
+.ddsubmenustyle li a{
+
+	display:block;
+
+	width:130px;
+
+	/*background:url(../images/bg2.png) left top repeat;**/
+
+	color:#555555;
+	text-decoration:none;
+	padding:6px 0px 6px 16px;
+	font-size:14px;
+	font-weight:bold;
+
+	}
+
+* html .ddsubmenustyle li{
+
+	display:inline-block;
+
+	width:130px;
+
+	}
+
+.ddsubmenustyle li a:hover{
+
+	color:#ffffff;
+	font-size:14px;
+	text-decoration:none;
+	background-color:#1073be;
+	font-weight:bold;
+
+	}
+
+
+
+
+
+
+
+.ddsubmenustyle1, .ddsubmenustyle1 ul{
+
+	margin:0;
+
+	padding:0;
+
+	position:absolute;
+
+	left:0;
+
+	top:0;
+
+	border:1px solid #999;
+
+	border-bottom:0;
+
+	list-style-type:none;
+
+	background:white;
+
+	visibility:hidden;
+
+	z-index:100;
+
+	}
+
+.ddsubmenustyle1 li{
+
+	float:left;
+
+	clear:both;
+
+	}
+
+.ddsubmenustyle1 li a{
+
+	display:block;
+
+	width:160px;
+
+	color:#333;
+
+	background:url(../images/ico.gif) #fff 5px -493px no-repeat;
+
+	border-bottom:1px solid #aaa;
+
+	text-indent:8px;
+
+	text-decoration:none;
+
+	padding:6px;
+
+	font-size:12px;
+
+	}
+
+* html .ddsubmenustyle1 li{
+
+	display:inline-block;
+
+	width:160px;
+
+	}
+
+.ddsubmenustyle1 li a:hover{
+
+	background:url(../images/ico.gif) #fff 5px -590px no-repeat;
+
+	text-indent:8px;
+
+	color:#ff0000;
+
+	font-size:12px;
+
+	text-decoration:none;
+
+	}
+
+
+
+/*Neutral CSS*/
+
+.downarrowpointer{
+
+	padding-left:4px;
+
+	border:0;
+
+	}
+
+.rightarrowpointer{
+
+	position:absolute;
+
+	padding-top:3px;
+
+	left:100px;
+
+	border:0;
+
+	}
+
+.ddiframeshim{
+
+	position:absolute;
+
+	z-index:500;
+
+	background:transparent;
+
+	border-width:0;
+
+	width:0;
+
+	height:0;
+
+	display:block;
+
+	}
